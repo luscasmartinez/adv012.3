@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
           
           <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
             <img 
-              src="src/static/adv.JPG" 
+              src="https://raw.githubusercontent.com/luscasmartinez/adv012.3/refs/heads/main/src/static/adv.JPG" 
               alt="Advogado especialista em recursos de multas e CNH" 
               className="rounded-lg shadow-xl max-w-sm w-full"
             />
