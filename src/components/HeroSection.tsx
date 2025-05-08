@@ -6,14 +6,14 @@ const HeroSection: React.FC = () => {
     <section className="relative text-white pt-28 pb-16 md:pt-40 md:pb-24 overflow-hidden">
       {/* Imagem de fundo com overlay gradiente */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-          alt="Fundo" 
+        <img
+          src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+          alt="Fundo"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#001a5a] via-[#001a5a]/95 to-transparent"></div>
       </div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2">
@@ -21,18 +21,18 @@ const HeroSection: React.FC = () => {
               <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
                 <span className="text-[#dec8b6]">Não perca sua CNH</span> e continue trabalhando!
               </h1>
-              
+
               <p className="text-lg md:text-xl mb-6 text-[#e5e5e5]">
-                Motorista profissional, não deixe que uma suspensão de CNH afete seu sustento e o de sua família. 
+                Motorista profissional, não deixe que uma suspensão de CNH afete seu sustento e o de sua família.
                 <span className="font-bold"> Nós podemos ajudar!</span>
               </p>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
-              
-              
-              <a 
-                href="https://api.whatsapp.com/send?phone=555599922774&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vi%20que%20voc%C3%AAs%20trabalham%20com%20suspens%C3%A3o%20de%20CNH%20e%20recursos%20de%20tr%C3%A2nsito.%20Recebi%20uma%20notifica%C3%A7%C3%A3o%20sobre%20a%20suspens%C3%A3o%20da%20minha%20carteira%20e%20estou%20muito%20preocupado%2C%20pois%20dependo%20dela%20para%20trabalhar.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20de%20voc%C3%AAs%20e%20se%20podem%20me%20ajudar%20nesse%20caso.%20Obrigado%21" 
+
+
+              <a
+                href="https://api.whatsapp.com/send?phone=555599922774&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vi%20que%20voc%C3%AAs%20trabalham%20com%20suspens%C3%A3o%20de%20CNH%20e%20recursos%20de%20tr%C3%A2nsito.%20Recebi%20uma%20notifica%C3%A7%C3%A3o%20sobre%20a%20suspens%C3%A3o%20da%20minha%20carteira%20e%20estou%20muito%20preocupado%2C%20pois%20dependo%20dela%20para%20trabalhar.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20de%20voc%C3%AAs%20e%20se%20podem%20me%20ajudar%20nesse%20caso.%20Obrigado%21"
                 className="bg-green-600 hover:bg-green-700 text-white py-3 px-8 rounded-lg text-center transition-all duration-300 flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,22 +43,22 @@ const HeroSection: React.FC = () => {
                 Falar no WhatsApp
               </a>
             </div>
-            
+
             <div className="flex flex-wrap items-center gap-6 bg-[#001a5a]/80 p-4 rounded-lg backdrop-blur-sm">
-              
-              
+
+
               <div className="flex items-center">
                 <ShieldCheck className="w-6 h-6 text-[#dec8b6] mr-2" />
                 <span className="text-sm">Atendimento Online</span>
               </div>
             </div>
           </div>
-          
+
           <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-            <img 
-              src="https://raw.githubusercontent.com/luscasmartinez/adv012.3/refs/heads/main/src/static/adv.JPG" 
-              alt="Advogado especialista em recursos de multas e CNH" 
-              className="rounded-lg shadow-xl max-w-sm w-full"
+            <img
+              src="https://raw.githubusercontent.com/luscasmartinez/adv012.3/refs/heads/main/src/static/adv.JPG"
+              alt="Advogado especialista em recursos de multas e CNH"
+              className="rounded-full shadow-xl w-64 h-64 object-cover"
             />
           </div>
         </div>
