@@ -32,7 +32,7 @@ const HeroSection: React.FC = () => {
 
 
               <a
-                href="https://api.whatsapp.com/send?phone=555599922774&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vi%20que%20voc%C3%AAs%20trabalham%20com%20suspens%C3%A3o%20de%20CNH%20e%20recursos%20de%20tr%C3%A2nsito.%20Recebi%20uma%20notifica%C3%A7%C3%A3o%20sobre%20a%20suspens%C3%A3o%20da%20minha%20carteira%20e%20estou%20muito%20preocupado%2C%20pois%20dependo%20dela%20para%20trabalhar.%20Gostaria%20de%20saber%20como%20funciona%20o%20atendimento%20de%20voc%C3%AAs%20e%20se%20podem%20me%20ajudar%20nesse%20caso.%20Obrigado%21"
+                href="https://api.whatsapp.com/send?phone=555599922774&text=Ol%C3%A1%2C%20entrei%20no%20site%20e%20preciso%20de%20um%C2%A0advogado"
                 className="bg-green-600 hover:bg-green-700 text-white py-3 px-8 rounded-lg text-center transition-all duration-300 flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
