@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
               </h1>
 
               <p className="text-lg md:text-xl mb-6 text-[#e5e5e5]">
-                Motorista profissional, não deixe que uma suspensão de CNH afete seu sustento e o de sua família.
+                 Motorista profissional, não deixe que multas ou uma suspensão de CNH afete seu sustento e o de sua família.
                 <span className="font-bold"> Nós podemos ajudar!</span>
               </p>
             </div>
