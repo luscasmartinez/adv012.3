@@ -7,7 +7,7 @@ const ProblemSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#001a5a] mb-4">
-            Você recebeu uma notificação de notificação de multa de trânsito ou de suspensão da CNH?
+            Você recebeu uma notificação de suspensão da CNH?
           </h2>
           <p className="text-lg max-w-3xl mx-auto text-gray-600">
             A suspensão da sua CNH pode trazer sérias consequências para sua vida profissional e pessoal. 
