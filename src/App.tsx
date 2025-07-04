@@ -3,6 +3,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import ProblemSection from './components/ProblemSection';
 import ProcessSection from './components/ProcessSection';
+import TestimonialsSection from './components/TestimonialsSection';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
       <Header />
       <HeroSection />
       <ProblemSection />
+      
+      <TestimonialsSection /> 
       <ProcessSection />
+      
     </div>
   );
 }

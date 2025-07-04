@@ -23,8 +23,8 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-[#e5e5e5] font-bold text-xl md:text-2xl">
-          Eduardo Lemes Advocacia
+          <span className="text-[#e5e5e5] font-bold text-xl mx-4 md:text-2xl">
+          DR. Eduardo Lemes Advocacia | OAB/RS nº 136.112 
           </span>
         </div>
         
