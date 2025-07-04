@@ -24,6 +24,15 @@ const HeroSection: React.FC = () => {
         .card-container {
           perspective: 1000px;
         }
+        @media (max-width: 768px) {
+          .card-container {
+            transform: translateY(0);
+            transition: transform 0.3s ease;
+          }
+          .card-container:active {
+            transform: translateY(4px);
+          }
+        }
       `}</style>
 
       <section className="relative text-white pt-28 pb-16 md:pt-40 md:pb-24 overflow-hidden">
@@ -92,9 +101,22 @@ const HeroSection: React.FC = () => {
                   {/* "Saiba mais" que aparece ao passar o mouse */}
                   {!isFlipped && (
                     <div
-                      className={`absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center py-2 rounded-b-lg text-sm font-medium transition-opacity duration-300 ${showHoverText ? 'opacity-100' : 'opacity-0'}`}
+                      className={`absolute bottom-0 left-0 right-0 bg-black/70 text-white text-center py-2 rounded-b-lg text-sm font-medium transition-opacity duration-300 
+                        ${showHoverText || window.innerWidth < 768 ? 'opacity-100' : 'opacity-0'}
+                        md:transition-all md:duration-300
+                        animate-pulse`}
                     >
                       Saiba mais
+                      {/* Seta ou ícone para mobile */}
+                      <svg 
+  className="w-4 h-4 ml-1 inline-block md:hidden animate-bounce" 
+  fill="none" 
+  stroke="currentColor" 
+  viewBox="0 0 24 24" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+</svg>
                     </div>
                   )}
                 </div>
@@ -127,4 +149,4 @@ const HeroSection: React.FC = () => {
   );
 };
 
-export default HeroSection; 
+export default HeroSection;
