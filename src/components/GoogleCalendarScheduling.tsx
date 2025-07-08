@@ -14,9 +14,10 @@ const GoogleCalendarScheduling = () => {
             <iframe 
               src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2uM-__AsHGdZDy9DR_PAjo7MafVtvywi5CbocHcIG9PL53JYbgFMVMxSfRcvpGTMyecy5K9Yll?gv=true" 
               style={{ border: 0 }}
-              className="w-full h-[1600px] md:h-[1800px] rounded-lg"
+              className="w-full h-[1600px] md:h-[900px] rounded-lg"
               frameBorder="0"
               title="Agendamento de Consulta"
+              scrolling="no"
             ></iframe>
           </div>
         </div>
