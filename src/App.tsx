@@ -4,6 +4,9 @@ import HeroSection from './components/HeroSection';
 import ProblemSection from './components/ProblemSection';
 import ProcessSection from './components/ProcessSection';
 import TestimonialsSection from './components/TestimonialsSection';
+import GoogleCalendarScheduling from './components/GoogleCalendarScheduling';
+
+
 
 function App() {
   return (
@@ -11,7 +14,7 @@ function App() {
       <Header />
       <HeroSection />
       <ProblemSection />
-      
+      <GoogleCalendarScheduling />
       <TestimonialsSection /> 
       <ProcessSection />
       

@@ -62,7 +62,7 @@ const HeroSection: React.FC = () => {
               </div>
 
               <div className="flex flex-col mx-4 items-center justify-cente sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
-                <a 
+                <a
                   href="https://api.whatsapp.com/send?phone=555599922774&text=Ol%C3%A1%2C%20entrei%20no%20site%20e%20preciso%20de%20um%C2%A0advogado"
                   className="bg-green-600 hover:bg-green-700 text-white py-3 px-8 rounded-lg text-center transition-all duration-300 flex items-center justify-center"
                   target="_blank"
@@ -85,7 +85,7 @@ const HeroSection: React.FC = () => {
 
             {/* Card interativo do lado direito */}
             <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
-              <div 
+              <div
                 className="relative w-80 h-80 cursor-pointer card-container"
                 onClick={!isFlipped ? handleClick : undefined}
                 onMouseEnter={() => setShowHoverText(true)}
@@ -108,15 +108,15 @@ const HeroSection: React.FC = () => {
                     >
                       Saiba mais
                       {/* Seta ou ícone para mobile */}
-                      <svg 
-  className="w-4 h-4 ml-1 inline-block md:hidden animate-bounce" 
-  fill="none" 
-  stroke="currentColor" 
-  viewBox="0 0 24 24" 
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-</svg>
+                      <svg
+                        className="w-4 h-4 ml-1 inline-block md:hidden animate-bounce"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                      </svg>
                     </div>
                   )}
                 </div>
@@ -133,7 +133,7 @@ const HeroSection: React.FC = () => {
                   >
                     <ChevronLeft className="w-5 h-5" />
                   </button>
-                  
+
                   <div className="flex-grow flex flex-col items-center justify-center text-center text-gray-800">
                     <h3 className="font-bold text-lg">Dr. Eduardo Lemes Aprato de Souza</h3>
                     <p className="mt-2 text-sm text-left text-justify">Inscrito na OAB/RS sob o nº 136.112</p>
