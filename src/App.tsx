@@ -14,7 +14,6 @@ function App() {
       <Header />
       <HeroSection />
       <ProblemSection />
-      <GoogleCalendarScheduling />
       <TestimonialsSection /> 
       <ProcessSection />
       
